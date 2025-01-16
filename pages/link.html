@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/link.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+    window.addEventListener("DOMContentLoaded", () => {
+        VANTA.BIRDS({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: true,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        backgroundAlpha: 0.0,
+        color2: 0xff00f0,
+        wingSpan: 40.0,
+        separation: 100.0,
+        alignment: 77.0,
+        cohesion: 5.0,
+        quantity: 1.0,
+        });
+
+        setTimeout(() => {
+        const main = document.querySelector("main");
+        main.style.opacity = 1;
+        main.style.filter = "blur(0px)";
+    }, 1000);
+    });
+    </script>    
+    <title>La VibraFit</title>
+</head>
+<body>
+    <div id="vanta"></div>
+    <main>
+        <header>
+            <img src="../assets/img/perfil.jpeg" alt="Dani">
+            <h1>
+                @Lavibrafit
+            </h1>
+        </header>
+        <ul>
+            <li>
+                <a href="../index.html">
+                    <img src="../assets/img/internet.png" alt="home" width="20">
+                    Pagina Web
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/lavibrafit/" target="_blank">
+                    <img src="../assets/img/instagram.png" alt="instagram"  width="20">
+                    Instagram
+                </a>
+            </li>
+        <!-- <ul>
+            <li>Tiktok</li>
+        </ul> -->
+        <li>
+                <a href="https://wa.link/uqo19n" target="_blank">
+                    <img src="../assets/img/whatsapp.png" alt="whatsapp"  width="20">
+                    Whatsapp
+                </a>
+            </li>
+        </ul>
+    </main>
+    
+</body>
+</html>
