@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>La VibraFit</title>
 </head>
 <body>
@@ -36,24 +37,24 @@
     </header>
     <!-- Inicio -->
     <section class="home" id="home">
-        <div class="home-content">
+        <div class="home-content" data-aos="zoom-in">
             <h1>Construye el</h1>
             <h3>Cuerpo de tus sueños</h3>
-            <h3><span class="multiple-text">Culturismo</span></h3>
+            <h3><span class="multiple-text"></span></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, autem.</p>
             <a href="#" class="btn">Unete</a>
         </div>
-        <div class="home-img">
+        <div class="home-img" data-aos="zoom-in">
             <img src="./assets/img/home-profile-03.png" alt="Home">
         </div>
     </section>
     <!-- servicios -->
     <section class="services" id="services">
-        <h2 class="heading">Mis<span>Servicios</span></h2>
-        <div class="services-content">
+        <h2 class="heading" data-aos="zoom-in-down">Mis<span>Servicios</span></h2>
+        <div class="services-content" data-aos="zoom-in-up">
             <div class="row">
                 <img src="./assets/img/grupo-02.jpg" alt="Asesoria">
-                <h4>Entrenamiento en sesiones individuales o grupales</h4>
+                <h4>Entrenamiento en sesiones </h4>
             </div>
             <div class="row">
                 <img src="./assets/img/evaluacion.jpg" alt="condicion fisica">
@@ -69,11 +70,11 @@
             </div>
             <div class="row">
                 <img src="./assets/img/asesoria.jpg" alt="training">
-                <h4>Diseño de programas de entrenamiento personalizados</h4>
+                <h4>programas de entrenamiento personalizados</h4>
             </div>
             <div class="row">
                 <img src="./assets/img/postura.jpg" alt="postura">
-                <h4>Supervisión técnica y corrección de postura</h4>
+                <h4>Supervisión de técnica</h4>
             </div>
             <!-- <div class="row">
                 <img src="./assets/img/grupo.jpg" alt="planes">
@@ -81,5 +82,127 @@
             </div> -->
         </div>
     </section>
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="about-img" data-aos="zoom-in-down">
+            <img src="./assets/img/logo-01.jpeg" alt="">
+        </div>
+        <div class="about-content" data-aos="zoom-in-up">
+            <h2 class="heading">Por que entrenar conmigo?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn">Toma una clase gratis</a>
+        </div>
+    </section>
+    <!-- precios -->
+    <section class="plans" id="plans">
+        <h2 class="heading" data-aos="zoom-in-down">Mis <span>Planes</span></h2>
+        <div class="plans-content" data-aos="zoom-in-up">
+
+            <div class="box">
+                <h3>Basico</h3>
+                <h2><span>$50/Mensual</span></h2>
+                <ul>
+                    <li>Plan Personalizado</li>
+                    <li>Entrenamiento desde casa</li>
+                </ul>
+                <a href="#">
+                    Unete ahora!
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+            </div>
+            <div class="box">
+                <h3>Pro GYM</h3>
+                <h2><span>$150/Mensual</span></h2>
+                <ul>
+                    <li>Plan Personalizado</li>
+                    <li>Entrenamiento desde casa</li>
+                </ul>
+                <a href="#">
+                    Unete ahora!
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+            </div>
+            <div class="box">
+                <h3>Premium</h3>
+                <h2><span>$300/Mensual</span></h2>
+                <ul>
+                    <li>Plan Personalizado</li>
+                    <li>Entrenamiento desde casa</li>
+                </ul>
+                <a href="#">
+                    Unete ahora!
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- comentarios -->
+    <section class="review" id="review">
+        <div class="review-box">
+            <h2 class="heading" data-aos="zoom-in-down">Clientes <span>satisfechos</span></h2>
+            <div class="wrapper" data-aos="zoom-in-up">
+                <div class="review-item">
+                    <img src="./assets/img/user.png" alt="reseña1">
+                    <h2>John</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                    </div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </div>
+                <div class="review-item">
+                    <img src="./assets/img/resena-02.jpeg" alt="reseña1">
+                    <h2>Marcos</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                    </div>
+                    Daniela es una professional en su trabajo, me ayudo a mejorar mi condición física y emocional.
+                </div>
+                <div class="review-item">
+                    <img src="./assets/img/user.png" alt="reseña1">
+                    <h2>David</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                        <i class="bx bxs-star" id="Star"></i>
+                    </div>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-telegram"></i></a>
+            <a href="#"><i class="bx bxl-whatsapp"></i></a>
+        </div>
+        <p class="copyright">
+            &copy;LaVibraFit -2025 Todos los derechos reservados.
+        </p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        offset: 300,
+        duration: 1400,
+    });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
