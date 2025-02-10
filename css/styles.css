@@ -309,7 +309,7 @@ span{
 }
 
 .box h2{
-    font-size: 43px;
+    font-size: 34px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -590,4 +590,5 @@ span{
     .heading {
         font-size: 4.5rem;
     }
+    
 }
