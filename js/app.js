@@ -14,7 +14,7 @@ window.onscroll = () => {
 // efecto tipado
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Entrenamiento Fisico', 'Personal Trainer','Coach Cuántico','Monitoreo del progreso','Nutrición Deportiva','Entrenamiento Mental','Supervisión de ejercicios'],
+    strings: ['Entrenamiento presencial', 'Asesorías online','Seguimiento constante','Coach cuántico','Terapeuta holistico'],
     typeSpeed: 60,
     backSpeed: 60,
     backDelay: 1000,

@@ -29,6 +29,7 @@ html{
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;    
 }
 
 section{
@@ -197,7 +198,7 @@ span{
 }
 .services-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
     align-items: center;
     gap: 2.3rem;
     margin-top: 4.1rem;
@@ -572,5 +573,21 @@ span{
 @media (max-width:415px){
     html{
         font-size: 50%;
+    }
+}
+
+@media (max-width:350px){
+    html{
+        font-size: 50%;
+    }
+    .services-content{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+        align-items: center;
+        gap: 2.3rem;
+        margin-top: 4.1rem;
+    }
+    .heading {
+        font-size: 4.5rem;
     }
 }
