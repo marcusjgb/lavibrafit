@@ -14,10 +14,14 @@
 /* variables globales */
 
 :root{
-    --bg-color:rgba(243, 220, 238, 0.959);
+    /* --bg-color:rgba(243, 220, 238, 0.959);
     --snd-bg-color:#d435e988;
     --text-color:#fff;
-    --main-color:#c568cec5;
+    --main-color:#c568cec5; */
+    --bg-color:#000;
+    --snd-bg-color:#111;
+    --text-color:#fff;
+    --main-color:#45ffca;
 }
 
 html{
@@ -49,7 +53,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 2rem 9%;
-    background: rgba(241, 101, 218, 0.5);
+    background: var(--bg-color);
     backdrop-filter: blur(10px);
     transition: all 0.5s ease;
 
