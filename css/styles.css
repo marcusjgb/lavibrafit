@@ -150,6 +150,7 @@ span{
 
 .home-img img{
     width: 45vw;
+    mask-image: linear-gradient(black 80%, transparent);
 }
 
 
@@ -544,6 +545,7 @@ span{
     .home-img img{
         width: 70vw;
         margin-top: 4rem;
+        mask-image: linear-gradient(black 80%, transparent);
     }
     .about{
         flex-direction: column;
@@ -567,6 +569,7 @@ span{
     .home-img img{
         width: 80vw;
         margin-top: 8rem;
+        mask-image: linear-gradient(black 80%, transparent);
     }
     .about-img img {
         width: 70vw;
